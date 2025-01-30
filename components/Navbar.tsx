@@ -20,12 +20,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      if (scrollPosition > 0) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -34,8 +29,10 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-black/80 py-4" : "bg-transparent py-6"
+      className={`w-full transition-all duration-300 ${
+        isScrolled
+          ? "relative py-4"
+          : "fixed     sm:top-10 left-0 z-50 bg-transparent py-6"
       }`}
     >
       {/* Navigation links for larger screens */}
