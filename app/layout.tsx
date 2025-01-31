@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Gelasio, Karla } from "next/font/google";
 import "./globals.css";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const gelasio = Gelasio({
   subsets: ["latin"],
@@ -27,8 +28,10 @@ export default function Layout({
       <body
         className={`${gelasio.variable} ${karla.variable} antialiased dark`}
       >
-        {/* Conținut principal */}
-        <main className="">{children}</main>
+        <TooltipProvider>
+          {/* Conținut principal */}
+          <main className="">{children}</main>
+        </TooltipProvider>
       </body>
     </html>
   );

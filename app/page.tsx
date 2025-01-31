@@ -7,8 +7,8 @@ export default function Home() {
     <div className="grid grid-cols-1 items-center justify-center">
       <Hero />
 
-      <div className="grid md:flex items-center justify-center gap-12 w-11/12 md:w-3/4 mx-auto my-0 sm:my-16 p-4">
-        <div className="text-center md:text-left md:w-1/2 mt-0 sm:mt-6 md:mt-0">
+      <div className="grid md:flex items-center justify-center gap-12  md:w-3/4 mx-auto my-0 sm:my-16 sm:p-4">
+        <div className="text-center md:text-left md:w-1/2 mt-0 sm:mt-6 p-4 sm:p-0 md:mt-0">
           <h2 className="text-3xl font-bold text-orange-400">
             Încearcă Delicatesele Noastre
           </h2>
@@ -18,7 +18,7 @@ export default function Home() {
             unică, menită să îți încânte simțurile.
           </p>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full sm:px-0  md:w-1/2">
           <Image
             src={heroImage2}
             alt="heroImage2"
