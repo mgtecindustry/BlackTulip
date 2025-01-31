@@ -1,6 +1,5 @@
 import Link from "next/link";
-import React from "react";
-import { FaFacebook, FaInstagram } from "react-icons/fa"; // Importă icoanele
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -13,7 +12,10 @@ export default function Header() {
           <FaInstagram className="w-6 h-6  hover:text-pink-500 transition-all duration-300" />
         </Link>
 
-        <Link href="https://www.facebook.com" target="_blank">
+        <Link
+          href="https://www.facebook.com/p/Terasa-Black-Tulip-100083790402834"
+          target="_blank"
+        >
           <FaFacebook className="w-6 h-6  hover:text-blue-600 transition-all duration-300" />
         </Link>
       </div>

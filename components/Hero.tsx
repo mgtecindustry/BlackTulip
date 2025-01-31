@@ -15,13 +15,15 @@ export default function Hero() {
           src={heroImage}
           alt="Hero Image"
           fill
-          className="object-cover opacity-40"
+          className="object-cover opacity-40 pointer-events-none"
         />
       </div>
 
       {/* Navigation Components */}
-      <Header />
-      <Navbar />
+      <div className="relative z-10">
+        <Header />
+        <Navbar />
+      </div>
 
       {/* Hero Content */}
       <div className="relative z-10 pt-[120px]  sm:pb-[80px] h-full grid items-center justify-center">
