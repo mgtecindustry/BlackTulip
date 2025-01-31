@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Gelasio, Karla } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Header from "@/components/Header";
 
 const gelasio = Gelasio({
   subsets: ["latin"],
