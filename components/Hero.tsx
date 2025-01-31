@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <div className="relative">
       {/* Background Image */}
-      <div className="absolute inset-0 h-screen">
+      <div className="absolute inset-0 h-[130vh] sm:h-screen">
         <Image
           src={heroImage}
           alt="Hero Image"
