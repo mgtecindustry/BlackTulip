@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 export default function Header() {
   return (
     <div className="hidden p-4 sm:flex items-center gap-4 justify-between bg-transparent">
-      <p className="leading-7 [&:not(:first-child)]:mt-6">
+      <p className="leading-7 [&:not(:first-child)]:mt-6 ">
         Strada Libertății 1, Dej, jud. Cluj
       </p>
       <div className="flex gap-4 m-4">

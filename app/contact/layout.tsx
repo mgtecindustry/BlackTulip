@@ -13,10 +13,8 @@ export default function ContactLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-screen  bg-background">
-      <Header />
-      <Navbar />
-      <div className="container mx-auto px-4">{children}</div>
+    <div className="min-h-screen">
+      <div className="mx-auto">{children}</div>
     </div>
   );
 }

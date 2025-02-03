@@ -12,6 +12,8 @@ import {
   SheetTrigger,
   SheetTitle,
 } from "@/components/ui/sheet";
+import Image from "next/image";
+import logo from "@/public/logo.png";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -29,14 +31,17 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full transition-all duration-300 ${
-        isScrolled
-          ? "relative py-4"
-          : "fixed     sm:top-10 left-0 z-50 bg-transparent py-6"
+      className={`w-full relative flex items-center justify-between px-4 transition-all duration-300 ${
+        isScrolled ? "py-4" : "left-0 z-50 bg-transparent py-6"
       }`}
     >
-      {/* Navigation links for larger screens */}
-      <div className="hidden sm:flex justify-center gap-16">
+      {/* Logo poziționat la stânga */}
+      <div className="ml-4">
+        <Image src={logo} alt="logoTerasa" className="w-20 sm:w-32" />
+      </div>
+
+      {/* Navigation links poziționate central */}
+      <div className="hidden sm:flex absolute left-1/2 transform -translate-x-1/2 gap-16">
         {Navlinks.map((navlink) => {
           const isActive = pathname === navlink.href;
           return (
@@ -67,8 +72,8 @@ export default function Navbar() {
         })}
       </div>
 
-      {/* Hamburger menu for small screens */}
-      <div className="sm:hidden absolute top-4 right-4">
+      {/* Hamburger menu pentru mobile, în dreapta */}
+      <div className="sm:hidden absolute top-8 right-4">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
             <Button variant="ghost" size="icon" className="hover:bg-black/20">
