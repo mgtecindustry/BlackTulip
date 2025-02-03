@@ -19,9 +19,10 @@ export const Navlinks: NavLinks[] = [
 export const containerVariables: ContainerVariables[] = [
   {
     title: "Locație Exclusivă",
-    text: "Terasa Black Tulip te întâmpină într-un cadru elegant și liniștit, perfect pentru momente de relaxare sau întâlniri speciale. Locația noastră centrală și atmosfera rafinată îți garantează o experiență plăcută, fie că ești cu prietenii sau în afaceri.",
+    text: "Terasa Black Tulip te întâmpină într-un cadru elegant și liniștit, perfect pentru momente de relaxare sau întâlniri speciale. Locația noastră centrală și atmosfera rafinată îți garantează o experiență plăcută, indiferent de sezon, datorită sistemului nostru de încălzire pentru zilele răcoroase și ventilației eficiente pentru verile călduroase.",
     icon: MapPin,
   },
+
   {
     title: "Atmosferă Elegantă",
     text: "Designul modern al terasei combină stilul sofisticat cu un ambient relaxant. Fiecare detaliu este gândit pentru a-ți oferi o atmosferă confortabilă, ideală pentru o cină intimă sau o întâlnire de afaceri de succes.",

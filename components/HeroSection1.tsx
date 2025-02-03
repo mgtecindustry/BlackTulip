@@ -1,16 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import landingPageImage from "@/public/landingPagePoza1.jpeg";
+import landingPageImage from "@/public/pizza2.jpeg";
 
 export default function HeroSection1() {
   return (
-    <div className="grid lg:flex items-center justify-center gap-12 max-w-6xl mx-auto ">
+    <div className="grid lg:flex items-center justify-center gap-12 max-w-7xl mx-auto ">
       {/* Secțiunea de imagine */}
       <div className="flex-1 max-w-xl">
         <Image
           src={landingPageImage}
           alt="landingPageImage"
-          className="w-full h-auto max-h-[40vh] sm:max-h-[60vh]  object-cover rounded-lg"
+          className="w-full h-auto max-h-[50vh] sm:max-h-[60vh]  opacity-90  object-cover sm:rounded-lg"
         />
       </div>
       {/* Secțiunea de text */}

@@ -36,8 +36,15 @@ export default function Navbar() {
       }`}
     >
       {/* Logo poziționat la stânga */}
-      <div className="ml-4">
+      <div className="ml-4 hidden sm:flex">
         <Image src={logo} alt="logoTerasa" className="w-20 sm:w-32" />
+      </div>
+      <div className="sm:hidden flex justify-center absolute top-2 left-1/2 transform -translate-x-1/2 ">
+        <Image
+          src={logo}
+          alt="logoTerasa"
+          className="w-64 h-auto p-8 opacity-50"
+        />
       </div>
 
       {/* Navigation links poziționate central */}
