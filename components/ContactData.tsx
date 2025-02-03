@@ -16,7 +16,7 @@ export default function ContactData() {
         <CardContent className="p-6 md:p-20 max-w-7xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 text-center mb-6">
             {[
-              { icon: MapPin, text: "Str. Exemplu nr. 10, București" },
+              { icon: MapPin, text: "Strada Libertății 1, Dej, jud. Cluj" },
               { icon: Clock, text: "Luni - Vineri: 09:00 - 18:00" },
               { icon: Phone, text: "+40 123 456 789" },
               { icon: Mail, text: "contact@example.com" },
