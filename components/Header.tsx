@@ -8,7 +8,10 @@ export default function Header() {
         Strada Libertății 1, Dej, jud. Cluj
       </p>
       <div className="flex gap-4 m-4">
-        <Link href="https://www.instagram.com" target="_blank">
+        <Link
+          href="https://www.instagram.com/terasablacktulip?igsh=MWYwNXh6c3B4dzdzag=="
+          target="_blank"
+        >
           <FaInstagram className="w-6 h-6  hover:text-pink-500 transition-all duration-300" />
         </Link>
 
