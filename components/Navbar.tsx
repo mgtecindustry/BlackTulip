@@ -5,7 +5,6 @@ import { Navlinks } from "@/lib/constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import {
   Sheet,
   SheetContent,
@@ -14,7 +13,6 @@ import {
 } from "@/components/ui/sheet";
 import Image from "next/image";
 import logo from "@/public/logo.png";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navbar() {
   const pathname = usePathname();
