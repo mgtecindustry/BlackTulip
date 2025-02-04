@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Mail, Phone, Clock } from "lucide-react";
 
 export default function ContactData() {
   return (
@@ -14,11 +14,22 @@ export default function ContactData() {
           </CardHeader>
         </div>
         <CardContent className="p-6 md:p-20 max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 text-center mb-6">
+          <div className="grid grid-cols-1  md:grid-cols-3 gap-6 md:gap-12 text-center mb-6">
             {[
-              { icon: MapPin, text: "Strada Libertății 1, Dej, jud. Cluj" },
-              { icon: Clock, text: "Luni - Vineri: 09:00 - 18:00" },
               { icon: Phone, text: "+40 123 456 789" },
+              {
+                icon: Clock,
+                text: (
+                  <div className="flex flex-col ">
+                    <p className="text-lg">Luni-Joi: 09:00 - 23:00</p>
+                    <p className="text-lg">Vineri: 09:00 - 00:00</p>
+                    <p className="text-lg">Sâmbătă: 10:00 - 01:00</p>
+                    <p className="text-lg mb-4 sm:mb-8">
+                      Duminică: 10:00 - 00:00
+                    </p>
+                  </div>
+                ),
+              },
               { icon: Mail, text: "contact@example.com" },
             ].map(({ icon: Icon, text }, index) => (
               <div key={index} className="flex flex-col items-center group">

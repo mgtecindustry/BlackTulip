@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/sheet";
 import Image from "next/image";
 import logo from "@/public/logo.png";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -36,7 +37,7 @@ export default function Navbar() {
       }`}
     >
       {/* Logo poziționat la stânga */}
-      <div className="ml-4 hidden sm:flex">
+      <div className="ml-4 hidden md:flex">
         <Image src={logo} alt="logoTerasa" className="w-20 sm:w-32" />
       </div>
       <div className="sm:hidden flex justify-center absolute top-2 left-1/2 transform -translate-x-1/2 ">
@@ -80,12 +81,12 @@ export default function Navbar() {
       </div>
 
       {/* Hamburger menu pentru mobile, în dreapta */}
-      <div className="sm:hidden absolute top-8 right-4">
+      <div className="sm:hidden absolute top-9 right-4">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
-            <Button variant="ghost" size="icon" className="hover:bg-black/20">
-              <Menu className="h-6 w-6" />
-            </Button>
+            <button>
+              <Menu size={24} /> {/* Increased icon size */}
+            </button>
           </SheetTrigger>
           <SheetContent side="right">
             <SheetTitle className="sr-only">Navigation Menu</SheetTitle>

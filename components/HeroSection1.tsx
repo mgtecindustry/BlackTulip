@@ -10,12 +10,12 @@ export default function HeroSection1() {
         <Image
           src={landingPageImage}
           alt="landingPageImage"
-          className="w-full h-auto max-h-[50vh] sm:max-h-[60vh]  opacity-90  object-cover sm:rounded-lg"
+          className="w-full h-[40vh] sm:max-h-[60vh]  opacity-90  object-cover sm:rounded-lg"
         />
       </div>
       {/* Secțiunea de text */}
       <div className="text-center md:text-left flex-1 max-w-lg p-4">
-        <h2 className="text-4xl font-bold text-orange-400">
+        <h2 className="text-3xl text-orange-400 sm:text-4xl font-bold ">
           Încearcă Delicatesele Noastre
         </h2>
         <p className="mt-6 text-lg text-gray-300 leading-relaxed">

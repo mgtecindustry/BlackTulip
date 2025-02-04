@@ -15,8 +15,19 @@ function Footer() {
 
           {/* Programul de funcționare în mijloc */}
           <div className="text-center sm:text-center flex-1 p-4">
-            <p className="text-lg">Luni-Vineri: 10:00 - 00:00</p>
-            <p className="text-lg">Sâmbătă-Duminică: 11:00 - 00:00</p>
+            <div className="border-b-2 border-gray-200 ">
+              <p className="text-lg">Luni-Joi: 09:00 - 23:00</p>
+              <p className="text-lg">Vineri: 09:00 - 00:00</p>
+              <p className="text-lg">Sâmbătă: 10:00 - 01:00</p>
+              <p className="text-lg mb-4 sm:mb-8">Duminică: 10:00 - 00:00</p>
+            </div>
+            <div className="mt-4 sm:mt-8">
+              <p className="text-md">
+                Ultima comandă bucătărie : Luni - Joi : 22:00
+              </p>
+              <p className="text-md">Vineri și Duminică : 23:00</p>
+              <p className="text-md">Sâmbătă : 23:30</p>
+            </div>
           </div>
 
           {/* Rețele sociale la final */}
