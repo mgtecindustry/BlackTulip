@@ -33,7 +33,7 @@ function Footer() {
           {/* Rețele sociale la final */}
           <div className="flex justify-center sm:justify-end gap-6 flex-1 p-4">
             <Link
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/terasablacktulip/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"
               target="_blank"
               rel="noopener noreferrer"
             >

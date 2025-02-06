@@ -16,7 +16,7 @@ export default function ContactData() {
         <CardContent className="p-6 md:p-20 max-w-7xl mx-auto">
           <div className="grid grid-cols-1  md:grid-cols-3 gap-6 md:gap-12 text-center mb-6">
             {[
-              { icon: Phone, text: "+40 123 456 789" },
+              { icon: Phone, text: "+40 747 092 711" },
               {
                 icon: Clock,
                 text: (
@@ -30,7 +30,7 @@ export default function ContactData() {
                   </div>
                 ),
               },
-              { icon: Mail, text: "contact@example.com" },
+              { icon: Mail, text: "terasa@blacktulip.com" },
             ].map(({ icon: Icon, text }, index) => (
               <div key={index} className="flex flex-col items-center group">
                 <div className="p-3 rounded-full bg-gray-600 shadow-md mb-2 group-hover:bg-orange-400 transition-all duration-300">
@@ -43,7 +43,7 @@ export default function ContactData() {
           <div className="flex justify-center mt-6">
             <Button
               onClick={() =>
-                (window.location.href = "mailto:contact@example.com")
+                (window.location.href = "mailto:terasa@blacktulip.com")
               }
               className="flex items-center gap-4 mt-6 bg-orange-400 hover:bg-orange-500 text-white px-6 py-3 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
             >
