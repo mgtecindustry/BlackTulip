@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Gelasio, Karla } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
-
+import Head from "next/head";
 const gelasio = Gelasio({
   subsets: ["latin"],
   weight: ["400", "700"],
@@ -28,6 +28,10 @@ export default function Layout({
       <body
         className={`${gelasio.variable} ${karla.variable} antialiased dark`}
       >
+        <Head>
+          {/* Adăugăm favicon-ul în secțiunea Head */}
+          <link rel="icon" href="/logo.png" type="image/png" sizes="32x32" />
+        </Head>
         {/* Conținut principal */}
         <main className="">{children}</main>
         <Footer />

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Allow: /public/
+
+Sitemap: https://www.blacktulip.com/sitemap.xml

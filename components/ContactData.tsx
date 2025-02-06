@@ -14,13 +14,17 @@ export default function ContactData() {
           </CardHeader>
         </div>
         <CardContent className="p-6 md:p-20 max-w-7xl mx-auto">
-          <div className="grid grid-cols-1  md:grid-cols-3 gap-6 md:gap-12 text-center mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 text-center mb-6">
             {[
-              { icon: Phone, text: "+40 747 092 711" },
+              {
+                icon: Phone,
+                text: "+40 747 092 711",
+                ariaLabel: "Număr de telefon",
+              },
               {
                 icon: Clock,
                 text: (
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col">
                     <p className="text-lg">Luni-Joi: 09:00 - 23:00</p>
                     <p className="text-lg">Vineri: 09:00 - 00:00</p>
                     <p className="text-lg">Sâmbătă: 10:00 - 01:00</p>
@@ -29,12 +33,21 @@ export default function ContactData() {
                     </p>
                   </div>
                 ),
+                ariaLabel: "Orele de funcționare",
               },
-              { icon: Mail, text: "terasa@blacktulip.com" },
-            ].map(({ icon: Icon, text }, index) => (
+              {
+                icon: Mail,
+                text: "terasa@blacktulip.com",
+                ariaLabel: "Adresă de email",
+              },
+            ].map(({ icon: Icon, text, ariaLabel }, index) => (
               <div key={index} className="flex flex-col items-center group">
                 <div className="p-3 rounded-full bg-gray-600 shadow-md mb-2 group-hover:bg-orange-400 transition-all duration-300">
-                  <Icon size={24} className="text-white" />
+                  <Icon
+                    size={24}
+                    className="text-white"
+                    aria-label={ariaLabel}
+                  />
                 </div>
                 <span className="text-gray-300 font-medium">{text}</span>
               </div>

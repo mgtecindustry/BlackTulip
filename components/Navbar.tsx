@@ -45,7 +45,6 @@ export default function Navbar() {
           className="w-64 h-auto p-8 opacity-50"
         />
       </div>
-
       {/* Navigation links poziționate central */}
       <div className="hidden sm:flex absolute left-1/2 transform -translate-x-1/2 gap-16">
         {Navlinks.map((navlink) => {
@@ -77,7 +76,6 @@ export default function Navbar() {
           );
         })}
       </div>
-
       {/* Hamburger menu pentru mobile, în dreapta */}
       <div className="sm:hidden absolute top-9 right-4">
         <Sheet open={isOpen} onOpenChange={setIsOpen}>

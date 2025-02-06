@@ -4,18 +4,19 @@ import landingPageImage from "@/public/pizza2.jpeg";
 
 export default function HeroSection1() {
   return (
-    <div className="grid lg:flex items-center justify-center gap-12 max-w-7xl mx-auto ">
+    <section className="grid lg:flex items-center justify-center gap-12 max-w-7xl mx-auto">
       {/* Secțiunea de imagine */}
       <div className="flex-1 max-w-xl">
         <Image
           src={landingPageImage}
-          alt="landingPageImage"
-          className="w-full h-[40vh] sm:max-h-[60vh]  opacity-90  object-cover sm:rounded-lg"
+          alt="Mâncăruri rafinate și ingrediente proaspete pentru o experiență culinară de neuitat"
+          className="w-full h-[40vh] sm:max-h-[60vh] opacity-90 object-cover sm:rounded-lg"
         />
       </div>
+
       {/* Secțiunea de text */}
       <div className="text-center md:text-left flex-1 max-w-lg p-4">
-        <h2 className="text-3xl text-orange-400 sm:text-4xl font-bold ">
+        <h2 className="text-3xl text-orange-400 sm:text-4xl font-bold">
           Încearcă Delicatesele Noastre
         </h2>
         <p className="mt-6 text-lg text-gray-300 leading-relaxed">
@@ -30,6 +31,6 @@ export default function HeroSection1() {
           cu preparatele noastre gourmet!
         </p>
       </div>
-    </div>
+    </section>
   );
 }
