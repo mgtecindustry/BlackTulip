@@ -34,7 +34,6 @@ export default function Layout({
         </Head>
         {/* Conținut principal */}
         <main className="">{children}</main>
-        <Footer />
       </body>
     </html>
   );

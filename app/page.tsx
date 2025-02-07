@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import HeroBanner from "@/components/HeroBanner";
 import HeroContainer from "@/components/HeroContainer";
 import HeroSection1 from "@/components/HeroSection1";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -35,11 +36,12 @@ export default function Home() {
         <meta property="og:locale" content="ro_RO" />
       </Head>
 
-      <div className="grid grid-cols-1 items-center justify-center">
+      <div className="grid grid-cols-1 items-center justify-center min-h-screen">
         <Hero />
         <HeroSection1 />
         <HeroBanner />
         <HeroContainer />
+        <Footer />
       </div>
     </>
   );
