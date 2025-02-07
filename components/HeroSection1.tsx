@@ -10,7 +10,7 @@ export default function HeroSection1() {
         <Image
           src={landingPageImage}
           alt="Mâncăruri rafinate și ingrediente proaspete pentru o experiență culinară de neuitat"
-          className="w-full h-[40vh] sm:max-h-[60vh] opacity-90 object-cover sm:rounded-lg"
+          className="w-full h-[40vh] sm:h-[60vh] opacity-90 object-cover sm:rounded-lg"
         />
       </div>
 
@@ -19,13 +19,13 @@ export default function HeroSection1() {
         <h2 className="text-3xl text-orange-400 sm:text-4xl font-bold">
           Încearcă Delicatesele Noastre
         </h2>
-        <p className="mt-6 text-lg text-gray-300 leading-relaxed">
+        <p className="mt-6 text-lg leading-relaxed">
           Descoperă preparate realizate din ingrediente proaspete, alese cu
           grijă pentru a-ți oferi o experiență culinară unică. De la aperitive
           rafinate la deserturi spectaculoase, fiecare farfurie este o
           combinație perfectă de gust și eleganță.
         </p>
-        <p className="mt-4 text-lg text-gray-300 leading-relaxed hidden md:block">
+        <p className="mt-4 text-lg leading-relaxed hidden md:block">
           Bucură-te de un ambient relaxant și o selecție premium de vinuri,
           într-un loc unde fiecare detaliu contează. Te așteptăm să te răsfeți
           cu preparatele noastre gourmet!
