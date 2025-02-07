@@ -1,5 +1,3 @@
-import React from "react";
-
 const meniuUrl =
   "https://oqjgdpuknnexaacahemq.supabase.co/storage/v1/object/sign/TerasaBlackTulip/meniu.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJUZXJhc2FCbGFja1R1bGlwL21lbml1LnBkZiIsImlhdCI6MTczODkxNDAyNiwiZXhwIjoxODk2NTk0MDI2fQ.AvzALbKRhZzeBAnxMd9ouRWNb4DY9zDwpAIQXZyiD60";
 
