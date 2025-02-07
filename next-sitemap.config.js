@@ -1,4 +1,3 @@
-// next-sitemap.ts
 /** @type {import('next-sitemap').IConfig} */
 const config = {
   siteUrl: "https://www.terasablacktulip.com", // URL-ul site-ului tău

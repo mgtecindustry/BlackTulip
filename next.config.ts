@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export", // Adaugă această linie pentru exportul static
   images: {
-    domains: ["https://oqjgdpuknnexaacahemq.supabase.co"],
+    domains: ["oqjgdpuknnexaacahemq.supabase.co"], // Elimină https:// din domeniu
   },
 };
 

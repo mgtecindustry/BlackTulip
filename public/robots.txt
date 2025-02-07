@@ -1,5 +1,9 @@
+# *
 User-agent: *
-Disallow: /admin/
-Allow: /public/
+Allow: /
 
-Sitemap: https://www.blacktulip.com/sitemap.xml
+# Host
+Host: https://www.terasablacktulip.com
+
+# Sitemaps
+Sitemap: https://www.terasablacktulip.com/sitemap.xml
