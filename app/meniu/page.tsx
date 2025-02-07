@@ -4,34 +4,31 @@ const meniuUrl =
 export default function MenuPage() {
   return (
     <>
-      <div
-        className="sm:hidden"
-        style={{
-          width: "100vw",
-          height: "100vh",
-          margin: 0,
-          padding: 0,
-        }}
-      >
+      {/* Secțiune pentru ecrane mici (mobile) */}
+      <div className="sm:hidden" style={{ width: "100%", height: "100vh" }}>
+        {/* Fallback pentru vizualizarea meniului pe mobil */}
         <iframe
           src={`${meniuUrl}#view=FitH&toolbar=0&navpanes=0`}
           width="100%"
           height="100%"
           style={{
             border: "none",
+            objectFit: "contain", // Asigură că PDF-ul se încarcă corect
           }}
           title="Meniu"
         />
+        {/* Link pentru descărcarea PDF-ului, în cazul în care iframe-ul nu funcționează */}
+        <p style={{ textAlign: "center", padding: "10px" }}>
+          <a href={meniuUrl} target="_blank" rel="noopener noreferrer">
+            Descarcă meniul
+          </a>
+        </p>
       </div>
 
+      {/* Secțiune pentru ecrane mari (desktop) */}
       <div
         className="hidden sm:flex"
-        style={{
-          width: "100vw",
-          height: "100vh",
-          margin: 0,
-          padding: 0,
-        }}
+        style={{ width: "100vw", height: "100vh" }}
       >
         <iframe
           src={meniuUrl}
@@ -39,6 +36,7 @@ export default function MenuPage() {
           height="100%"
           style={{
             border: "none",
+            objectFit: "contain", // Asigură că PDF-ul se încarcă corect
           }}
           title="Meniu"
         />
