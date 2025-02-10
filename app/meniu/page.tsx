@@ -10,11 +10,11 @@ export default function Menu() {
 
   return (
     <>
-      <div className="hidden sm:block">
+      <div className="hidden sm:block h-[100vh]">
         <iframe
           src={url}
           width="100%"
-          height="800px"
+          height="100%"
           style={{ border: "none" }}
           title="Meniu PDF"
         ></iframe>

@@ -18,7 +18,7 @@ export default function ContactData() {
             {[
               {
                 icon: Phone,
-                text: "+40 747 092 711",
+                text: "+40 (747) 092 711",
                 ariaLabel: "Număr de telefon",
               },
               {

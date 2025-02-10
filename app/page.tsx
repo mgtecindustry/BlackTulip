@@ -38,9 +38,7 @@ export default function Home() {
 
       <div className="grid grid-cols-1 items-center justify-center min-h-screen ">
         <Hero />
-
         <HeroSection1 />
-
         <HeroBanner />
         <HeroContainer />
         <Footer />
