@@ -4,10 +4,10 @@ import Link from "next/link";
 export default function HeroTitle() {
   return (
     <div className="text-center max-w-4xl mx-auto px-4 flex flex-col items-center">
-      <h1 className="text-orange-400 mt-4 sm:mt-0 scroll-m-20 text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight">
+      <h1 className="text-orange-400 mt-4 sm:mt-0 scroll-m-20 text-3xl md:text-4xl xl:text-5xl font-extrabold tracking-tight">
         Black Tulip – Răsfăț Culinar în Eleganță
       </h1>
-      <p className="mt-6 text-lg md:text-xl leading-7 text-gray-200 md:px-8 lg:px-16">
+      <p className="mt-6 text-lg xl:text-lg leading-7 text-gray-200 md:px-8 lg:px-16">
         La <strong>Black Tulip</strong>, rafinamentul întâlnește gustul
         desăvârșit. Oferim preparate fine și băuturi alese într-o atmosferă
         intimă și elegantă. Fiecare masă devine o experiență culinară unică, în

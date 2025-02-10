@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section className="relative">
       {/* Background Image */}
-      <div className="absolute inset-0 h-[130vh] sm:h-[110vh]">
+      <div className="absolute min-h-screen inset-0 h-[130vh] sm:h-[110vh] lg:h-[140vh]">
         <Image
           src={heroImage}
           alt="Zona de relaxare cu mese la terasa Black Tulip, ideală pentru socializare și relaxare."
@@ -29,7 +29,7 @@ export default function Hero() {
         <h1 className="text-4xl font-bold text-white">
           <HeroTitle />
         </h1>
-        <div className="p-12">
+        <div className="p-12 lg:px-12 lg:p-0 lg:pt-12">
           <RestaurantInfo />
         </div>
       </div>

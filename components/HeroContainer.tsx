@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 function HeroContainer() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full p-4 sm:p-16 text-center">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-16 w-full p-4 sm:p-16 text-center">
       {containerVariables.map((container, index) => (
         <Card
           key={index}

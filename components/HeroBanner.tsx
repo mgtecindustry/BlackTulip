@@ -3,13 +3,13 @@ import heroBannerImage from "@/public/heroImage2.jpg";
 
 export default function HeroBanner() {
   return (
-    <div className="relative py-8 sm:pt-32">
+    <div className="relative py-8 sm:pt-32 lg:pt-16">
       {/* Imaginea cu fundal */}
       <div className="relative">
         <Image
           src={heroBannerImage}
           alt="Terasa Black Tulip - locul perfect pentru relaxare și răsfăț"
-          className="opacity-90 w-full h-[50vh] sm:h-[70vh] object-cover"
+          className="opacity-90 w-full h-[50vh] sm:h-[70vh] lg:h-[80vh] object-cover"
         />
 
         {/* Suprapunere pentru contrast */}
@@ -17,10 +17,10 @@ export default function HeroBanner() {
 
         {/* Text SEO asupra imaginii */}
         <div className="absolute inset-0 text-orange-400 flex flex-col items-center justify-center text-center z-10 p-4">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 drop-shadow-lg">
+          <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold mb-8 drop-shadow-lg">
             Locul Ideal pentru Relaxare și Răsfăț
           </h1>
-          <p className="text-lg md:text-xl text-white max-w-3xl drop-shadow-md">
+          <p className="text-lg lg:text-xl text-white max-w-3xl drop-shadow-md">
             Vino să te bucuri de un ambient elegant și relaxant, unde fiecare
             vizită devine o ocazie specială. La Black Tulip, terasa noastră este
             locul perfect pentru a te destinde alături de cei dragi, savurând

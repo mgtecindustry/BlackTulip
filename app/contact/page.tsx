@@ -33,7 +33,7 @@ export default function ContactPage() {
         </div>
 
         {/* Imagine de fundal full screen */}
-        <div className="absolute inset-0 w-full h-[100vh] sm:h-[120vh] -z-10">
+        <div className="absolute inset-0 w-full h-[100vh] sm:h-[120vh] md:h-[115vh] lg:h-[140vh] xl:h-[125vh] -z-10">
           <Image
             src={heroImage || "/placeholder.svg"}
             alt="Locație și Contact - Imagine de fundal"
@@ -43,8 +43,8 @@ export default function ContactPage() {
         </div>
 
         {/* Conținut principal */}
-        <div className="flex flex-col items-center justify-center text-center min-h-screen relative z-10 mt-4 pb-32 sm:pb-64">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 drop-shadow-lg">
+        <div className="flex flex-col items-center justify-center text-center min-h-screen relative z-10 mt-4  pb-32 sm:pb-64">
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold  mb-4 drop-shadow-lg text-orange-400">
             Contactează-ne pentru Colaborări
           </h1>
           <p className="text-xl md:text-2xl text-white max-w-2xl drop-shadow-md">

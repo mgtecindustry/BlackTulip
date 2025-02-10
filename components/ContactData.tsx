@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, Phone, Clock } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 export default function ContactData() {
   return (
@@ -22,17 +22,9 @@ export default function ContactData() {
                 ariaLabel: "Număr de telefon",
               },
               {
-                icon: Clock,
-                text: (
-                  <div className="flex flex-col">
-                    <p className="text-lg">Luni-Joi: 09:00 - 23:00</p>
-                    <p className="text-lg">Vineri: 09:00 - 00:00</p>
-                    <p className="text-lg">Sâmbătă: 10:00 - 01:00</p>
-                    <p className="text-lg mb-4 sm:mb-8">
-                      Duminică: 10:00 - 00:00
-                    </p>
-                  </div>
-                ),
+                icon: MapPin,
+                text: "Strada Libertății 1, Dej, jud. Cluj",
+
                 ariaLabel: "Orele de funcționare",
               },
               {
