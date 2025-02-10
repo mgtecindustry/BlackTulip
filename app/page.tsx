@@ -36,9 +36,11 @@ export default function Home() {
         <meta property="og:locale" content="ro_RO" />
       </Head>
 
-      <div className="grid grid-cols-1 items-center justify-center min-h-screen">
+      <div className="grid grid-cols-1 items-center justify-center min-h-screen ">
         <Hero />
+
         <HeroSection1 />
+
         <HeroBanner />
         <HeroContainer />
         <Footer />

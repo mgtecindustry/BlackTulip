@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section className="relative">
       {/* Background Image */}
-      <div className="absolute min-h-screen inset-0 h-[130vh] sm:h-[110vh] lg:h-[140vh]">
+      <div className="absolute min-h-screen inset-0 h-[130vh] sm:h-[110vh] lg:h-[120vh] ">
         <Image
           src={heroImage}
           alt="Zona de relaxare cu mese la terasa Black Tulip, ideală pentru socializare și relaxare."

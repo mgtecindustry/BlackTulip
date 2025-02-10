@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function RestaurantInfo() {
   return (
-    <div className="w-full py-12  lg:py-0 lg:pt-12">
+    <div className="w-full mt-12 xl:mt-20">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-3 lg:gap-8">
         {/* Rezervări */}
         <div className="flex flex-col items-center text-center p-6 bg-black/80 lg:rounded-lg shadow-lg lg:hover:scale-105 transition-all">
