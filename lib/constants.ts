@@ -1,10 +1,5 @@
 import { LucideIcon } from "lucide-react";
 import { MapPin, Wine, Utensils } from "lucide-react";
-import galerie1 from "@/public/galerie/galerie1.jpg";
-import galerie2 from "@/public/galerie/galerie2.jpg";
-import galerie3 from "@/public/galerie/galerie3.jpg";
-import galerie4 from "@/public/galerie/galerie4.jpg";
-import galerie5 from "@/public/galerie/galerie5.jpg";
 
 type NavLinks = {
   href: string;
