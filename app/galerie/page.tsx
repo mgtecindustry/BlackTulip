@@ -24,14 +24,16 @@ export default function page() {
         <Header />
         <Navbar />
       </div>
-      <div className=" md:hidden flex flex-col items-center mt-32 gap-8">
+      <div className="md:hidden flex flex-col items-center mt-32 gap-8">
         <GallerySection1 />
         <GalleryCarousel />
         <GallerySection2 />
         <GalleryCarousel />
       </div>
       <div className=" hidden md:flex flex-col items-center mt-32 gap-8 ">
+        <div className="px-32">
         <GallerySection1 />
+        </div>
         <GalleryPage />
         <GallerySection2 />
         <GalleryPage />
