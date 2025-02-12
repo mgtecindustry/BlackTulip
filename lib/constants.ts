@@ -69,25 +69,25 @@ export const galleryImagesTerasa: GalleryImages[] = [
 export const galleryImagesMancare: GalleryImages[] = [
   {
     href: "/mancare/mancareImage1.jpeg",
-    alt: "Poza galerie 1 mancare black tulip",
+    alt: "Ciocolată fină din Dubai, un desert rafinat servit la Terasa Black Tulip",
   },
 
   {
     href: "/mancare/mancareImage3.jpeg",
-    alt: "Poza galerie 3 mancare black tulip",
+    alt: "Pizza delicioasă cu toppinguri fresh, servită la Terasa Black Tulip",
   },
   {
     href: "/mancare/mancareImage2.jpeg",
-    alt: "Poza galerie 2 mancare black tulip",
+    alt: "Burger suculent cu cheddar topit și cartofi prăjiți, servit la Terasa Black Tulip",
   },
 
   {
     href: "/mancare/mancareImage5.jpeg",
-    alt: "Poza galerie 5 mancare black tulip",
+    alt: "Pizza cu ingrediente de calitate, gătită cu pasiune la Terasa Black Tulip",
   },
   {
     href: "/mancare/mancareImage4.jpeg",
-    alt: "Poza galerie 4 mancare black tulip",
+    alt: "Burger gustos cu cartofi prăjiți, o alegere perfectă la Terasa Black Tulip",
   },
   // {
   //   href: "/mancare/mancareImage6.jpeg",

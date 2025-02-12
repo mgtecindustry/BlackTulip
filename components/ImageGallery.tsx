@@ -43,7 +43,7 @@ export default function Gallery({ images }: GalleryProps) {
           </DialogTrigger>
           <DialogContent className="max-w-2xl p-4">
             <DialogTitle>
-              Imaginea {image.alt}
+              {image.alt}
               {/* Titlu ascuns, dar prezent pentru screen readers */}
             </DialogTitle>
             {selectedImage && (
