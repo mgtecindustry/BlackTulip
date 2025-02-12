@@ -40,10 +40,12 @@ export default function page() {
       </div>
 
       <div className=" hidden md:flex flex-col items-center mt-32 gap-8 ">
-        <GallerySection1 />
-        <GalleryPageTerasa />
-        <GallerySection2 />
-        <GalleryPageMancare />
+        <div className="px-32">
+          <GallerySection1 />
+          <GalleryPageTerasa />
+          <GallerySection2 />
+          <GalleryPageMancare />
+        </div>
       </div>
     </div>
   );
