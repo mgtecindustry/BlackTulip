@@ -43,25 +43,58 @@ export const containerVariables: ContainerVariables[] = [
   },
 ];
 
-export const galleryImages: GalleryImages[] = [
+export const galleryImagesTerasa: GalleryImages[] = [
   {
-    href: "/galerie/galerie1.jpg",
-    alt: "Poza galerie 1 terasa black tulip",
+    href: "/terasa/terasaImage1.jpg",
+    alt: "Barul Terasei Black Tulip, decor modern și elegant",
   },
   {
-    href: "/galerie/galerie2.jpg",
-    alt: "Poza galerie 2 terasa black tulip",
+    href: "/terasa/terasaImage5.jpeg",
+    alt: "Vedere exterioară a Terasei Black Tulip, cu decor modern și atmosferă primitoare",
   },
   {
-    href: "/galerie/galerie3.jpg",
-    alt: "Poza galerie 3 terasa black tulip",
+    href: "/terasa/terasaImage3.jpg",
+    alt: "Masă pregătită pe Terasa Black Tulip, cu un aranjament elegant în aer liber",
   },
   {
-    href: "/galerie/galerie4.jpg",
-    alt: "Poza galerie 4 terasa black tulip",
+    href: "/terasa/terasaImage6.jpeg",
+    alt: "Vedere exterioară a Terasei Black Tulip, cu o atmosferă plăcută și primitoare",
   },
   {
-    href: "/galerie/galerie5.jpg",
-    alt: "Poza galerie 5 terasa black tulip",
+    href: "/terasa/terasaImage4.jpg",
+    alt: "Masă elegant aranjată pe Terasa Black Tulip, cu decor sofisticat și detalii rafinate",
   },
+];
+
+export const galleryImagesMancare: GalleryImages[] = [
+  {
+    href: "/mancare/mancareImage1.jpeg",
+    alt: "Poza galerie 1 mancare black tulip",
+  },
+
+  {
+    href: "/mancare/mancareImage3.jpeg",
+    alt: "Poza galerie 3 mancare black tulip",
+  },
+  {
+    href: "/mancare/mancareImage2.jpeg",
+    alt: "Poza galerie 2 mancare black tulip",
+  },
+
+  {
+    href: "/mancare/mancareImage5.jpeg",
+    alt: "Poza galerie 5 mancare black tulip",
+  },
+  {
+    href: "/mancare/mancareImage4.jpeg",
+    alt: "Poza galerie 4 mancare black tulip",
+  },
+  // {
+  //   href: "/mancare/mancareImage6.jpeg",
+  //   alt: "Poza galerie 6 mancare black tulip",
+  // },
+  // {
+  //   href: "/mancare/mancareImage7.jpeg",
+  //   alt: "Poza galerie 5 mancare black tulip",
+  // },
 ];

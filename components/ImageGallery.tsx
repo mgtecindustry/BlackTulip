@@ -41,7 +41,7 @@ export default function Gallery({ images }: GalleryProps) {
               className="w-full h-auto rounded-lg cursor-pointer transition-transform transform hover:scale-105"
             />
           </DialogTrigger>
-          <DialogContent className="max-w-2xl p-0 bg-black">
+          <DialogContent className="max-w-2xl p-4">
             <DialogTitle>
               Imaginea {image.alt}
               {/* Titlu ascuns, dar prezent pentru screen readers */}

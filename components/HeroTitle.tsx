@@ -7,7 +7,7 @@ export default function HeroTitle() {
       <h1 className="text-orange-400 mt-4 sm:mt-0 scroll-m-20 text-3xl md:text-4xl xl:text-5xl font-extrabold tracking-tight">
         Black Tulip – Răsfăț Culinar în Eleganță
       </h1>
-      <p className="mt-6 text-lg xl:text-lg leading-7 text-gray-200 md:px-8 lg:px-16">
+      <p className="mt-6 text-lg  leading-7 text-gray-200 md:px-8 lg:px-16">
         La <strong>Black Tulip</strong>, rafinamentul întâlnește gustul
         desăvârșit. Oferim preparate fine și băuturi alese într-o atmosferă
         intimă și elegantă. Fiecare masă devine o experiență culinară unică, în

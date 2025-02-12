@@ -44,7 +44,7 @@ export default function ContactPage() {
 
         {/* Conținut principal */}
         <div className="flex flex-col items-center justify-center text-center min-h-screen relative z-10 mt-4  pb-32 sm:pb-64">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold  mb-4 drop-shadow-lg text-orange-400">
+          <h1 className="text-4xl lg:text-5xl font-bold  mb-4 drop-shadow-lg text-orange-400">
             Contactează-ne pentru Colaborări
           </h1>
           <p className="text-xl md:text-2xl text-white max-w-2xl drop-shadow-md">
