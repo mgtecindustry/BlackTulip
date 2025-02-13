@@ -1,11 +1,3 @@
-import {
-  GalleryCarouselTerasa,
-  GalleryCarouselMancare,
-} from "@/components/GalleryCarousel";
-import {
-  GalleryPageMancare,
-  GalleryPageTerasa,
-} from "@/components/GalleryPage";
 import GallerySection1 from "@/components/GallerySection1";
 import GallerySection2 from "@/components/GallerySection2";
 import Header from "@/components/Header";
