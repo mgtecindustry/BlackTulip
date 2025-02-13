@@ -17,6 +17,7 @@ export function CarouselGallerySmallScreen({
   images: GalleryImages[];
 }) {
   const [api, setApi] = React.useState<CarouselApi>();
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [current, setCurrent] = React.useState(0);
   const [count, setCount] = React.useState(0);
 
