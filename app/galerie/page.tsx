@@ -14,6 +14,9 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import heroImage from "@/public/heroImage.jpg";
+import { CarouselGallerySmallScreen } from "@/components/CarouselGallery";
+import { galleryImagesMancare, galleryImagesTerasa } from "@/lib/constants";
+import { CarouselBigScreen } from "@/components/CarouselGalleryBiggerScreens";
 
 export default function page() {
   return (
@@ -41,7 +44,6 @@ export default function page() {
           <Header />
           <Navbar />
         </div>
-
         <div className="absolute inset-0 w-full h-[130vh] sm:h-[100vh]  -z-10">
           <Image
             src={heroImage}
@@ -50,8 +52,20 @@ export default function page() {
             className="object-cover opacity-40"
           />
         </div>
+        <div className="flex sm:hidden flex-col items-center mt-32 gap-8">
+          <GallerySection1 />
+          <CarouselGallerySmallScreen images={galleryImagesTerasa} />
+          <GallerySection2 />
+          <CarouselGallerySmallScreen images={galleryImagesMancare} />
+        </div>
+        <div className="sm:flex hidden flex-col items-center mt-32 gap-8">
+          <GallerySection1 />
+          <CarouselBigScreen images={galleryImagesTerasa} />
+          <GallerySection2 />
+          <CarouselBigScreen images={galleryImagesMancare} />
+        </div>
 
-        <div className="md:hidden flex flex-col items-center mt-32 gap-8">
+        {/* <div className="md:hidden flex flex-col items-center mt-32 gap-8">
           <GallerySection1 />
           <GalleryCarouselTerasa />
           <GallerySection2 />
@@ -65,7 +79,7 @@ export default function page() {
             <GallerySection2 />
             <GalleryPageMancare />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
