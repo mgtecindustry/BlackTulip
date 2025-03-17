@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <title>Terasa Black Tulip - Locul ideal pentru relaxare</title>
-        <link rel="canonical" href="https://www.terasablacktulip.ro" />
+        <link rel="canonical" href="https://www.blacktulipterasa.ro/" />
         <meta
           name="description"
           content="Vizitează Terasa Black Tulip pentru o experiență unică de relaxare și socializare. Urmărește-ne pe Facebook și Instagram!"
@@ -31,7 +31,7 @@ export default function Home() {
           content="Vizitează Terasa Black Tulip pentru o experiență unică de relaxare și socializare."
         />
         <meta property="og:image" content="/logo.png" />
-        <meta property="og:url" content="https://www.terasablacktulip.ro" />
+        <meta property="og:url" content="https://www.blacktulipterasa.ro/" />
         <meta property="og:type" content="business.business" />
         <meta property="og:locale" content="ro_RO" />
       </Head>

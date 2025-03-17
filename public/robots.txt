@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.terasablacktulip.com
+Host: https://www.blacktulipterasa.ro/
 
 # Sitemaps
-Sitemap: https://www.terasablacktulip.com/sitemap.xml
+Sitemap: https://www.blacktulipterasa.ro/sitemap.xml
