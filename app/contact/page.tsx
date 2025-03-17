@@ -1,13 +1,14 @@
 "use client";
 import ContactData from "@/components/ContactData";
 import Image from "next/image";
-import heroImage from "@/public/heroImage.jpg";
 import Location from "@/components/Location";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Head from "next/head"; // Import pentru head (pentru SEO)
 
 export default function ContactPage() {
+  const heroImage =
+    "https://oqjgdpuknnexaacahemq.supabase.co/storage/v1/object/sign/TerasaBlackTulip/heroImage.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJUZXJhc2FCbGFja1R1bGlwL2hlcm9JbWFnZS5qcGciLCJpYXQiOjE3NDIyMjk3NDAsImV4cCI6MjY4ODMwOTc0MH0.MghzdSN8VkUXHVz-sNkQnJwnUPYaExIlcyazz2eyO4I";
   return (
     <>
       <Head>
